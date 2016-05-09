@@ -1,0 +1,3 @@
+django
+django-classy-settings
+.idea

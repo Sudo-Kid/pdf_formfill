@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - </title>
+</head>
+<body>
+<h1>INDEX!!!!</h1>
+<form method="POST">
+    {% csrf_token %}
+    <ul>
+        {{ appl.as_ul }}
+        <li><input type="submit" value="Submit"></li>
+    </ul>
+</form>
+</body>
+</html>
